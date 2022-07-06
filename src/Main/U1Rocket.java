@@ -25,7 +25,7 @@ public class U1Rocket extends Rocket {
         if(successfulLaunch){
             System.out.println("Ship took off successfully!");
         } else {
-            System.out.println("Ship blew up bro...");
+            System.out.println("Ship blew up...");
         }
         return successfulLaunch;
     }
@@ -38,9 +38,12 @@ public class U1Rocket extends Rocket {
         if(successfulLand){
             System.out.println("Ship landed successfully!");
         } else {
-            System.out.println("Ship crashed bro...");
+            System.out.println("Ship crashed...");
         }
         return successfulLand;
     }
 
+    public double getROCKET_WEIGHT() {
+        return ROCKET_WEIGHT;
+    }
 }

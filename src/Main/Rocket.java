@@ -31,4 +31,11 @@ public class Rocket implements SpaceShip {
         this.rocketWeight += item.weight;
     }
 
+    public double getRocketWeight() {
+        return rocketWeight;
+    }
+
+    public double getCost() {
+        return cost;
+    }
 }
