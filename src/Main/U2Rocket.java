@@ -39,7 +39,7 @@ public class U2Rocket extends Rocket {
             if(successfulLand){
                 System.out.println("Ship landed successfully!");
             } else {
-                System.out.println("Ship crashed...");
+                System.out.println("Ship crashed..");
             }
             return successfulLand;
         }

@@ -6,8 +6,6 @@ public class Rocket implements SpaceShip {
     double maxWeight;
     double cost;
 
-
-
     @Override
     public boolean launch() {
         return true;
